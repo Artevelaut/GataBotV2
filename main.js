@@ -120,8 +120,8 @@ global.reloadHandler = function () {
     conn.off('group-participants-update', conn.onParticipantsUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = Bienvenido/a @user ingresaste a_* \n┃ *_@subject_*\n┃\n┃ᚒ⌬ *_¿Quieres ver mis comandos?_* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃ᚒ⌬ *_Por favor lee la descripción del grupo_*\n┃                                 👇\n\n@desc\n\n┃\n┃ *_Gracias 🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
-  conn.bye = Adiós mascaporotos *_🪦 Se fue @user_* 
+  conn.welcome = '*_Bienvenido/a @user ingresaste a_* \n┃ *_@subject_*\n┃\n┃ᚒ⌬ *_¿Quieres ver mis comandos?_* \n┃ᚒ⌬ *_Escribe: #menu_* \n┃ᚒ⌬ *_Por favor lee la descripción del grupo_*\n┃                                 👇\n\n@desc\n\n┃\n┃ *_Gracias 🕊️_*\n┃ *_🤹‍♀️ ¡Disfruta del Grupo! 🤹‍♀️_* \n┗━━━━━━━━━━━━━━━━ꪶ࿋྄ིᤢꫂ'
+  conn.bye = '*_Adiós mascaporotos *_🪦 Se fue @user_*'
   conn.spromote = '*@user* *Es nuevo/a administrador/a del grupo*
   conn.sdemote = '*@user* *Ya no es administrador/a del grupo*
   conn.handler = handler.handler
